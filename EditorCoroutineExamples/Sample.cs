@@ -9,7 +9,7 @@ namespace UnityExtensions.EditorCoroutineExamples
     static class Sample
     {
 
-        [MenuItem("UnityExtensions/EditorCoroutineExamples/Count To Ten")]
+        //[MenuItem("UnityExtensions/EditorCoroutineExamples/Count To Ten")]
         public static void CountToTen()
         {
             EditorCoroutine.Start(CountToTenCoroutine());
